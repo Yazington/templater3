@@ -104,7 +104,6 @@ class TemplaterApp:
         self.status_bar = tk.Label(self.root, text="", bd=1, relief=tk.SUNKEN, anchor=tk.W)
         self.status_bar.pack(side=tk.BOTTOM, fill=tk.X)
 
-
         self.update_template_list()
         self.update_ui()  # Start the periodic UI updates
         print("UI setup complete")
