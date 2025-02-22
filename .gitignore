@@ -1,0 +1,16 @@
+# Ignore .git directory
+.git/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore logs
+*.log
+
+# Ignore environment files
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
